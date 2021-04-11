@@ -1,0 +1,1 @@
+mysqlimport --lines-terminated-by='\n' --fields-terminated-by=',' --fields-optionally-enclosed-by='\"' --verbose --local -u <DB username> -p<DB password> -P <DB Port> -h <DB IP> <DB Name> <CSV File> --debug-info
